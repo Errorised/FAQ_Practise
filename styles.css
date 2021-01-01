@@ -91,6 +91,7 @@ h3 {
 }
 
 .scrolling-start {
-    transition: opacity 1s;
+    transition: opacity 0.75s;
     will-change: opacity;
 }
+

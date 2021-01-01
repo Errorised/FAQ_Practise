@@ -1,6 +1,7 @@
 $(".questions").click((event) => {
     const id = event.target.id;
     const newId = id.replace("q", "a");
+    
     const answer = document.createElement("p");
     answer.classList.add("answers");
 

@@ -38,10 +38,10 @@ h3 {
 }
 
 .right-content {
-    padding: 0 200px 0 50px;
+    padding: 0 10% 0 50px;
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 35%;
 
 }
 
@@ -52,7 +52,7 @@ h3 {
 
 .headline {
     font-size: 3rem;
-    margin: 20px 0 90px;
+    margin: 10% 0 20%;
     color:hsl(237, 12%, 33%);
 }
 
@@ -68,18 +68,18 @@ h3 {
 }
 
 .image1 {
-    width: 650px;
+    width: 150%;
     height: auto;
     position: relative;
-    right: 18%;
+    right: 50%;
 
 }
 
 .image2 {
     position: fixed;
     left: 14%;
-    bottom: 500px;
-    width: 250px;
+    bottom: 40%;
+    width: 10%;
     height: auto;
     z-index: 1;
 
@@ -95,3 +95,11 @@ h3 {
     will-change: opacity;
 }
 
+/* '------------media-queries------------' */
+
+@media screen and (max-width: 2060px) {
+    .image1 {
+        width: 130%;
+        right: 25%;
+    }
+}
